@@ -13,21 +13,25 @@ Collects notifications shown by `naughty`.
 
 ## Installation
 
-1. Clone the library (e.g. into `~/.config/awesome/`)
+1. Clone the library (e.g. in the config directory `~/.config/awesome/`)
+   ```
+   $ cd ~/.config/awesome/
+   $ git clone git@github.com:bozydar/notifications-widget.git
+   ```
 2. Edit the `rc.lua`
-    1. Load the library `local notifications_widget = require('notifications-widget.counter')`
+    1. Load the library `local notifications_widget = require('notifications-widget.widget')`
     2. Connect to the `noughty` callback
-    ```lua
-    naughty.config.notify_callback = function(args)
-        notifications_widget:new_message(args)
-        return args
-    end
-    ```
+       ```lua
+       naughty.config.notify_callback = function(args)
+          notifications_widget:new_message(args)
+          return args
+       end
+       ```
 
 3. To test, send a message from the terminal
-```
-$ notify-send "Title" "Something not really <i>interesting</i> message"
-```
+   ```
+   $ notify-send "Title" "Something not really <i>interesting</i> message"
+   ```
 
 ## TODO
 
