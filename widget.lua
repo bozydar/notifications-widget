@@ -94,10 +94,3 @@ end)
 
 notfications_widget:update_graphic()
 return notfications_widget
-
--- TODO:
--- 1. Show messages on the same screen as mouse - DONE
--- 2. Remove messages after clicking on the widget - DONE
--- 3. Show title in the box - DONE
--- 4. Indicate that there is more messages there
--- 5. Show icons
