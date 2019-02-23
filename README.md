@@ -10,7 +10,7 @@ Collects notifions cought by `naughty`:
 
 ## Installation
 
-1. Clone the library (e.g. in your `~/.config/awesome/`
+1. Clone the library (e.g. into `~/.config/awesome/`)
 2. Edit the `rc.lua`
     1. Load the library `local notifications_widget = require('notifications-widget.counter')`
     2. Connect to the `noughty` callback
