@@ -2,6 +2,8 @@
 
 Collects notifications shown by `naughty`.
 
+![demo](demo.png)
+
 ## Features
 
 * Shows the number of already collected in the top.
