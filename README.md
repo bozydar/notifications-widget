@@ -1,9 +1,10 @@
 # Notifications widget
 
-## Features
-Collects notifions cought by `naughty`: 
+Collects notifications shown by `naughty`.
 
-* Show the number of already collected in the top.
+## Features
+
+* Shows the number of already collected in the top.
 * Clicking the left button shows/hide a widget with titles and messages
 * Clicking the right button resets the state. (Mark as read?)
 * Mouse wheel - scrolls messages.
