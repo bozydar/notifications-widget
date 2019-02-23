@@ -20,7 +20,7 @@ Collects notifications shown by `naughty`.
    ```
 2. Edit the `rc.lua`
     1. Load the library `local notifications_widget = require('notifications-widget.widget')`
-    2. Connect to the `noughty` callback
+    2. Connect to the `naughty` callback
        ```lua
        naughty.config.notify_callback = function(args)
           notifications_widget:new_message(args)
