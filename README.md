@@ -7,7 +7,7 @@ Collects notifications shown by `naughty`.
 ## Features
 
 * Shows the number of already collected in the top.
-* Clicking the left button shows/hide a widget with titles and messages
+* Clicking the left button shows/hides a widget with titles and messages
 * Clicking the right button resets the state. (Mark as read?)
 * Mouse wheel - scrolls messages.
 
