@@ -21,7 +21,7 @@ Collects notifions cought by `naughty`:
     end
     ```
 
-3. Test sending a message. E.g.
+3. To test, send a message from the terminal
 ```
 $ notify-send "Title" "Something not really <i>interesting</i> message"
 ```
