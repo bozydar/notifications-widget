@@ -27,6 +27,20 @@ Collects notifications shown by `naughty`.
           return args
        end
        ```
+    3. Add the widget to the wibox
+       ```
+       -- Add widgets to the wibox
+       s.mywibox:setup {
+           layout = wibox.layout.align.horizontal,
+           -- ...
+           s.mytasklist, -- Middle widget
+           { -- Right widgets
+               layout = wibox.layout.fixed.horizontal,
+               notifications_widget,  -- <-- for example put it there
+               wibox.widget.systray(),
+               mytextclock,
+           },
+       }
 
 3. To test, send a message from the terminal
    ```
